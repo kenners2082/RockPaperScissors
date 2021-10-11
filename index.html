@@ -11,21 +11,26 @@
 
 <body>
 	<header>
-  <h1>Welcome to Rock Paper Scissors Game</h1>
-	<header>
-  
-  
-  <div class="body">
-  <h3 id="results"></h3>
-  <form>
-		<select id="userResponse">
+		<h1>Welcome to Rock Paper Scissors Game</h1>
+		<image id="rps-image" src="rps.svg" alt "hands playing rock paper scissors">
+      <h2 id="comp-results"></h2>
+	</header>
+
+
+	<div class="body">
+		<h3 id="results"></h3>
+		<form>
+			<select id="userResponse">
   <option value="Rock">Rock</option>
   <option value="Paper">Paper</option>
   <option value="Scissors">Scissors</option>
 </select>
-<br><br>
-<input type="button" onclick="playGameFunc()" value="PLAY!">
 </form>
+<br>
+<div id="play-button">
+<!-- <input type="button" onclick="playGameFunc()" value="PLAY!"> -->
+<image id="play-image"src="play_button.png" alt"Play Button" onclick="playGameFunc()">
+</div>
     <script src="script.js"></script>
   </div>
   

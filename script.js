@@ -19,6 +19,7 @@ function playGameFunc(userResponse, compResponse) {
   userResponse = getUserResponse.value;
   //console.log(getUserResponse.value);
   console.log(compResponse);
+  document.getElementById("comp-results").innerHTML = 'Computer Plays >> ' + compResponse;
   if (userResponse === compResponse) {
     document.getElementById("results").innerHTML = 'It\'s a tie! Try again :)';
     return 'It\'s a tie! Try again :)';

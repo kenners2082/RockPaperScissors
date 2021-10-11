@@ -10,7 +10,7 @@ box-sizing: border-box;
 
 header {
 background: #e76f51;
-padding: 20px;
+padding: 10px;
 }
 
 header > h1 {
@@ -19,10 +19,31 @@ text-align:center;
 }
 
 h3 {
-color: #264653;
+color: white;
+padding: 20px;
+}
+
+h2 {
+color: white;
+text-align:center;
 }
 
 .body {
 background: #2a9d8f;
+text-align: center;
+padding-bottom: 35px;
 }
 
+
+
+#play-image {
+  max-width: 50px;
+}
+
+#rps-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  width: 40%;
+}
